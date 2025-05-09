@@ -1,0 +1,212 @@
+/* FAQ Hero */
+.faq-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/274506/pexels-photo-274506.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 180px 0 100px;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: var(--spacing-xs);
+}
+
+.faq-hero h1 {
+  margin-bottom: var(--spacing-xs);
+  animation: fadeInDown 1s ease;
+}
+
+.faq-hero .subtitle {
+  color: var(--white);
+  opacity: 0.9;
+  animation: fadeInUp 1s ease 0.3s forwards;
+  opacity: 0;
+}
+
+/* FAQ Content */
+.faq-content {
+  padding: var(--spacing-xl) 0 var(--spacing-xxl);
+  background-color: var(--secondary-color);
+}
+
+.faq-categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xl);
+}
+
+.category-btn {
+  padding: 8px 20px;
+  background-color: var(--white);
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.category-btn:hover,
+.category-btn.active {
+  background-color: rgb(117, 3, 3);
+  color: var(--white);
+}
+
+.faq-search {
+  max-width: 600px;
+  margin: 0 auto var(--spacing-xl);
+  position: relative;
+}
+
+.faq-search input {
+  width: 100%;
+  padding: 12px 50px 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: border-color var(--transition-fast);
+}
+
+.faq-search input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.search-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.search-btn:hover {
+  background-color: #9a0000;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: var(--spacing-md);
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  transition: box-shadow var(--transition-fast);
+}
+
+.faq-item:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.faq-question {
+  padding: var(--spacing-md);
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-question h3 {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+.toggle-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-left: var(--spacing-sm);
+  transition: transform var(--transition-fast);
+}
+
+.faq-item.active .toggle-icon {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  padding: 0 var(--spacing-md);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-medium), padding var(--transition-medium);
+}
+
+.faq-item.active .faq-answer {
+  padding: 0 var(--spacing-md) var(--spacing-md);
+  max-height: 500px;
+}
+
+.faq-answer p {
+  margin-bottom: var(--spacing-sm);
+}
+
+.faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.faq-answer ul {
+  margin-bottom: var(--spacing-sm);
+  padding-left: var(--spacing-md);
+}
+
+.faq-answer ul li {
+  list-style: disc;
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Contact CTA */
+.contact-cta {
+  padding: var(--spacing-xl) 0;
+  background-color: var(--secondary-color);
+  color: var(--white);
+  text-align: center;
+}
+
+.contact-cta h2 {
+  color: var(--white);
+  margin-bottom: var(--spacing-xs);
+}
+
+.contact-cta p {
+  max-width: 600px;
+  margin: 0 auto var(--spacing-md);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-hero {
+    padding: 150px 0 80px;
+  }
+  
+  .faq-categories {
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .faq-question h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .category-btn {
+    padding: 6px 16px;
+    font-size: 0.9rem;
+  }
+}

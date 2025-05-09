@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Cristiano Ronaldo Official Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <span>CR7</span>
+          </a>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+          <div class="mobile-nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-hero">
+        <div class="containers">
+          <h1>Get in Touch</h1>
+          <p class="subtitle">Reach out to the CR7 team</p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h2>Contact Information</h2>
+              <p>
+                For business inquiries, fan mail, or any general questions, please fill out the contact form or use the information below.
+              </p>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>contact@cristianoronaldo.com</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h3>Management Office</h3>
+                  <p>CR7 Management Ltd<br />Lisbon, Portugal</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-users"></i>
+                <div>
+                  <h3>Social Media</h3>
+                  <div class="contact-social">
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form-container">
+              <h2>Send a Message</h2>
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your full name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="Your email address" required />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Select a subject</option>
+                    <option value="fan-message">Fan Message</option>
+                    <option value="business">Business Inquiry</option>
+                    <option value="press">Press/Media</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+              </form>
+              <div id="form-status" class="hidden"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-preview">
+        <div class="container">
+          <h2>Frequently Asked Questions</h2>
+          <p>Find answers to common questions about Cristiano Ronaldo</p>
+          <div class="faq-cards">
+            <div class="faq-card">
+              <h3>Business Opportunities</h3>
+              <p>Learn about potential collaboration and sponsorship opportunities</p>
+              <a href="faq.html#business" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="faq-card">
+              <h3>Autograph Requests</h3>
+              <p>Information about official channels for autograph requests</p>
+              <a href="faq.html#autographs" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="faq-card">
+              <h3>Fan Club</h3>
+              <p>Details about the official CR7 fan club and membership benefits</p>
+              <a href="faq.html#fanclub" class="btn btn-secondary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <span>CR7</span>
+            <p>Official Website</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Follow CR7</h3>
+            <div class="social-icons">
+              <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Cristiano Ronaldo. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
