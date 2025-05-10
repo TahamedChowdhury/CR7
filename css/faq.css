@@ -1,6 +1,6 @@
 /* FAQ Hero */
 .faq-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/274506/pexels-photo-274506.jpeg');
+  background: linear-gradient(rgb(30 30 30 / 70%), rgb(22 22 22 / 70%)), url('https://images.pexels.com/photos/274506/pexels-photo-274506.jpeg');
   background-size: cover;
   background-position: center;
   padding: 180px 0 100px;

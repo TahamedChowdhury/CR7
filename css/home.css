@@ -2,7 +2,8 @@
 .hero {
   height: 100vh;
   
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg') ;
+  
+  background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg') ;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

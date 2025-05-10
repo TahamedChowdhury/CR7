@@ -50,12 +50,15 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
-  color: white;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
 }
+
+
 
 h3 {
   font-size: 1.75rem;
+  
 }
 
 p {
@@ -64,6 +67,10 @@ p {
 }
 .para{
   color: black;
+}
+.paratwo{
+  color: white;
+  font-size: 2rem;
 }
 a {
   color: var(--primary-color);
