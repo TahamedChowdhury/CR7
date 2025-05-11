@@ -1,6 +1,6 @@
 /* About Hero */
 .about-hero {
-  background: linear-gradient(rgb(87 82 82 / 80%), rgb(39 39 39 / 80%)), url('https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg');
+  background: linear-gradient(rgb(73 70 70 / 70%), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg');
   background-size: cover;
   background-position: center;
   padding: 180px 0 100px;

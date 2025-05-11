@@ -168,6 +168,7 @@
 .faq-answer ul li {
   list-style: disc;
   margin-bottom: var(--spacing-xs);
+  color: white;
 }
 
 /* Contact CTA */

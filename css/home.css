@@ -3,16 +3,17 @@
   height: 100vh;
   
   
-  background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg') ;
+  background:linear-gradient(rgba(49, 49, 49, 0.7), rgba(37, 37, 37, 0.7)),url("/MixCollage-11-May-2025-12-14-PM-3157.jpg") ;
+  
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  
+  background-attachment:fixed;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 0 var(--spacing-md);
-  margin-bottom: var(--spacing-xs);
+ 
 }
 
 .hero-content {
@@ -40,6 +41,7 @@
   animation: fadeInUp 1s ease 0.6s forwards;
   opacity: 0;
 }
+
 
 /* Highlights Section */
 .highlights {
